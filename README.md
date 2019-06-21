@@ -1,4 +1,4 @@
-# Widget News
+# Marvel Heroes Atomic Design
 
 ## Getting Started
 
@@ -45,13 +45,13 @@ This is the basic project folder structure
 ```javascript
 ...
   src
-  └──src // designed to contain general assets like images
-    └──components // designed to contain all the components
-      └──atoms // designed to contain all the components
-      └──molecules // designed to contain all the components
-      └──organisms // designed to contain all the components
-      └──pages // designed to contain all the components
-      └──templates // designed to contain all the components
+  └──src // designed to contain all the content of the application
+    └──components // designed to contain all the components of the application
+      └──atoms // designed to contain atoms components
+      └──molecules // designed to contain molecules components
+      └──organisms // designed to contain organisms components
+      └──pages // designed to contain pages components
+      └──templates // designed to contain templates components
   | App.js // designed to be the entry point of the application
   ...
 ...
@@ -71,6 +71,5 @@ Basically, the entry point of the `index.js` project renders the `App` component
 - [React](http://facebook.github.io/react) is used for UI.
 - [React Router](https://www.npmjs.com/package/react-router) is used to manipulate routes.
 - [Redux](https://redux.js.org/) is used to manage application state.
-- [Ant Design](https://ant.design/) is used as a library of previously stylized components to give visual identity to the application.
 - [Jest](https://jestjs.io/) + [Enzyme](https://github.com/airbnb/enzyme) - is used for unit tests.
 - [CircleCI](https://circleci.com/) - is used for CI.
